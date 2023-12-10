@@ -29,6 +29,7 @@ A=np.array(eval(input()))
 P,L,U=lu(A)
 print(L)
 print(U)
+```
 
 (ii) To find the LU Decomposition of a matrix
 ```
@@ -49,7 +50,7 @@ B=np.array(constant)
 result=lu_factor(A)
 solution=lu_solve(result,B)
 print(solution)
-
+```
 ## Output:
 ![lu decomposition]()
 
